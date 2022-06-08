@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(224, 220, 220);
+    height: 100vh;
+    padding-top: 50px;
+}
+.container-fluid{
+    background-color: whitesmoke;
+    height: 82vh;
+    border-radius: 15px;
+    width: 95%;
+}
+.parent h2{
+    padding-top: 30px;
+    margin-left: 92px;
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    margin-left: 80px;
+}
+button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.card1{
+    background-color: white;
+    height: 55vh;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.card2{
+    background-color: white;
+    height: 55vh;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.card3{
+    background-color: white;
+    height: 55vh;
+    width: 300px;
+    border-radius: 18px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.mini{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.shutter{
+height: 220px;
+width: 280px;
+border-radius: 15px;
+margin-left: 10px;
+margin-top: 15px;
+}
+.shutter1{
+    height: 60px;
+    width: 67px;
+    border-radius: 20px;
+    margin-right: 37px;
+}
+.shutter2{
+    height: 60px;
+    width: 67px;
+    border-radius: 20px;
+    margin-right: 37px;
+}
+.shutter3{
+    height: 60px;
+    width: 67px;
+    border-radius: 20px;
+}
+.people{
+    display: flex;
+    margin-top: 13px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.numb{
+    margin-left: 200px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 920px){
+ .parent h2{
+     margin-left: -2px !important;
+ }   
+ .btn{
+     margin-left: -2px !important;
+ }
+ .card1{
+     height: 65vh !important;
+     margin-left: -2px !important;
+ }
+ .card2{
+    height: 65vh !important;
+    margin-left: -2px !important;
+}
+.card3{
+    height: 65vh !important;
+    margin-left: -2px !important;
+}
+.container-fluid{
+    height: 230vh !important;
+    margin-top: -50px !important;
+}
+}
